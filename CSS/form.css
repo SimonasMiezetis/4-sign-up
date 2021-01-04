@@ -1,0 +1,41 @@
+form {
+    display: inline-block;
+    width: 100%;
+}
+.form-row {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.form-row:last-of-type {
+    margin-bottom: 0;
+}
+label {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+input {
+    display: inline-block;
+    width: 100%;
+    line-height: 30px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #999;
+}
+.form-row > span {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.form-row > a {
+    display: inline-block;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
